@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Inter;
+  background-color: hsl(218, 23%, 16%);
+}
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 200px;
+  /* align-items: center; */
+}
+
+.main-div {
+  background-color: hsl(217, 19%, 24%);
+
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  width: 465px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+  /* margin: 40px; */
+}
+@media screen and (max-width: 480px) {
+    .main-div{
+        margin: 40px;
+
+    }
+    .dice{
+top: 364px;
+    }
+    .dice:hover{
+        box-shadow: hsl(150, 100%, 66%)  0px 0px 25px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+
+    }
+    .main-div{
+        height: 350px;
+    }
+
+}
+.main-div span {
+  color: hsl(150, 100%, 66%);
+  font-weight: 500;
+  font-size: 10px;
+  padding: 30px;
+  letter-spacing: 2px;
+}
+.main-div p {
+  color: hsl(193, 38%, 86%);
+  padding: 0 40px 10px 40px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.dice {
+  position: absolute;
+  bottom: -20px;
+  background-color: hsl(150, 100%, 66%);
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dice img {
+  height: 18px;
+  width: 18px;
+}
+.dice:hover {
+  box-shadow: hsl(150, 100%, 66%)  0px 0px 25px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.pattern {
+  padding: 30px 10px 70px 10px;
+}
+.pattern img {
+  width: 326px;
+  height: 16px;
+}
+
+.my-span {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block-end: -11px;
+}
+.my-span span {
+}
